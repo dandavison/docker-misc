@@ -1,0 +1,7 @@
+server1:
+  build: server
+  container_name: server1
+
+server2:
+  build: server
+  container_name: server2
