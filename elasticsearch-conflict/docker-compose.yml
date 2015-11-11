@@ -1,0 +1,11 @@
+es1:
+  build: es1
+  container_name: es1
+  ports:
+    - "9201:9200"
+
+es2:
+  build: es2
+  container_name: es2
+  ports:
+    - "9202:9200"
