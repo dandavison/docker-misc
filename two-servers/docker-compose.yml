@@ -1,7 +1,7 @@
 server1:
-  build: server
+  build: server1
   container_name: server1
 
 server2:
-  build: server
+  build: server2
   container_name: server2
