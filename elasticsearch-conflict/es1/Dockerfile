@@ -46,4 +46,6 @@ ENTRYPOINT ["/docker-entrypoint.sh"]
 
 EXPOSE 9200 9300
 
-CMD ["elasticsearch"]
+WORKDIR /elasticsearch
+COPY . ./
+CMD ["bash", "initialize_database.sh"]
